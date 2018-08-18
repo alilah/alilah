@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Room</title>
+</head>
+<body>
+
+<p style="text-align: center"><strong>Please fill this room requirement</strong></p>
+<form style ="text-align: center" name="roomform" method="Post" action="/RoomServlet">
+    <div style="text-align: center">
+        <div class="form-group">
+
+            <label for=”examplefullname″>Room Identity</label>
+            <input type=”text” name="roomid" class=”form-control” id=”examplefullName″ required><br>
+        </div>
+        <div>
+            <label for=”exampleInputEmail″>Room Number</label>
+            <input type=”text” name="rnumber" class=”form-control” id=”exampleInputemail″ require><br>
+        </div>
+        <div>
+            <label for=”exampleUserName″>Room Type</label>
+            <input type=”text” name="rtype" class=”form-control” id=”exampleUsername″ required><br>
+        </div>
+        <div>
+            <label for=”exampleUserName″>Booking identity</label>
+            <input type=”text” name="booking" class=”form-control” id=”exampleUsebooking″ required><br>
+        </div>
+        <button style="color: blue;">Update Room</button>
+    </div>
+</form>
+<div>
+        <form style ="text-align: center" name="roomform" method="Get" action="/RoomServlet">
+            <button style="color: blue">View Rooms</button></form>
+    </div>>
+
+</body>
+</html>

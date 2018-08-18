@@ -1,0 +1,59 @@
+
+<!--<%@ page language="java"
+contentType="text/html; charset=windows-1256"
+pageEncoding="windows-1256"
+import="ExamplePackage.UserBean"
+%>-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <meta name="description" content="hotel reservation system app">
+    <meta name="keywords" content="HTML, CSS, Javascript, Servlet, Ajax, JDBC,PL/SQL, JUnit">
+    <meta name="Author" content="Abouderman Amadou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+         <title>Guest Dashboard</title>
+</head>
+<body>
+<div style="text-align: center;"><h1 font-size="30px">Guest Dashboard </h1></div>
+
+<div style="text-align: center"><h2><strong>Welcome  Guest</strong></h2></div>
+
+
+<div>
+    <nav>
+<ul>
+    <li>
+        <form method="post" action="/ProfileServlet">
+        <a  href ="/profile.html"><span > create/view my Profile:</span></a>
+            </form>
+    </li>
+    <li>
+        <form method="post" action="/IssueServlet">
+        <a href ="/issue.html"> Raise an Issue:</a>
+        </form>
+    </li>
+
+    <li>
+            <a href="/RoomServlet">Check Available rooms:</a>
+    </li>
+
+    <li>
+        <a href ="/reservation.html">Book a Room:</a>
+    </li>
+
+    <li>
+        <a  href="/LogoutServlet">Logout</a>
+    </li>
+
+</ul>
+    </nav>
+</div>
+</form>
+<script src="js/JScript.js"></script>
+</body>
+</html>

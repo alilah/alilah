@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="reservationDB">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.9">
+    <root id="1">
+      <ServerVersion>12.1.0.2</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="RESERVATIONDB">
+      <ObjectId>70</ObjectId>
+      <IntrospectionTimestamp>2018-07-24.23:32:38</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-07-23.23:24:01</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-23.23:24:02</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="DBSNMP">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="APPQOSSYS">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="XDB">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="ANONYMOUS">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="GSMCATUSER">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="CTXSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="RDSADMIN">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ABOUDERMAN">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="CHINOOK">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="BEARDB">
+      <ObjectId>68</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ACCOUNTDB">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="26" parent="2" name="USERS">
+      <ObjectId>22152</ObjectId>
+      <CreatedTimestamp>2018-07-23.23:24:01</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-23.23:24:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="27" parent="26" name="USERID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="26" name="FULLNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(150 byte)|0s</DataType>
+    </column>
+    <column id="29" parent="26" name="EMAIL">
+      <Position>3</Position>
+      <DataType>VARCHAR2(150 byte)|0s</DataType>
+    </column>
+    <column id="30" parent="26" name="USERNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="31" parent="26" name="PASSWORD_">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="32" parent="26" name="ROLE_">
+      <Position>6</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <index id="33" parent="26" name="SYS_C005344">
+      <ObjectId>22153</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-23.23:24:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-23.23:24:02</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="26" name="SYS_C005344">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-07-23.23:24:02</ModifiedTimestamp>
+      <ColNames>USERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005344</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

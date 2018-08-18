@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"> <!-- my own css-->
+
+</head>
+<body>
+<p style="text-align: center"><strong>Please proceed with the registration</strong></p>
+<form style ="text-align: center" name="registrationform" method="Post" action="/RegistrationServlet">
+    <div style="text-align: center">
+        <div class="form-group">
+
+            <label for=”exampleUserid″>User Identity</label>
+            <input type=”text” name="userid" class=”form-control” id=”exampleUserid″ required><br>
+        </div>
+    <div class="form-group">
+
+        <label for=”examplefullname″>Full Name</label>
+        <input type=”text” name="fullName" class=”form-control” id=”examplefullName″ required><br>
+    </div>
+    <div>
+        <label for=”exampleInputEmail″>Email</label>
+        <input type=”text” name="email" class=”form-control” id=”exampleInputemail″ require><br>
+</div>
+    <div>
+        <label for=”exampleUserName″>Username</label>
+        <input type=”text” name="username" class=”form-control” id=”exampleUsername″ required><br>
+</div>
+        <label>Password</label>
+        <input type=”text” name="password" class=”form-control” id=”exampleInputPassword1″″ required><br>
+
+<div>
+        <label for=”exampleInputrole″>Role</label>
+        <input type=”text” name="role" class=”form-control” id=”exampleInputrole″ placeholder="leave blank" ><br>
+    </div>
+        <button style="color: blue;">Register</button>
+</div>
+</form>
+
+</body>
+</html>

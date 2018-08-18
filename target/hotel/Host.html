@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <meta name="description" content="hotel reservation system app">
+    <meta name="keywords" content="HTML, CSS, Javascript, Servlet, Ajax, JDBC,PL/SQL, JUnit">
+    <meta name="Author" content="Abouderman Amadou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Host Dashboard</title>
+</head>
+<body>
+<div style="text-align: center"><h1 font-size="30px"> Host Dashboard </h1></div>
+
+<div style="text-align: center" id="welcome"><h2><strong> </strong></h2></div>
+
+<div>
+    <nav class="link">
+    <ul>
+        <li>
+            <a href ="/LogingServlet"><span>Get All Guests:</span></a>
+        </li>
+        <li>
+            <a href ="/IssueServlet">View/Resolve an Issue:</a>
+        </li>
+        <li>
+            <a href ="/ReservationServlet">Approve/Deny Reservations:</a>
+        </li>
+        <li>
+            <form method="post" action="/RoomServlet">
+                <a href ="/room.html"> Make/view Room Availables:</a>
+            </form>
+        </li>
+        <li>
+            <a href ="/ImageServlet">Upload an Image:</a>
+        </li>
+        <li><a  href="/LogoutServlet">Logout</a></li>
+    </ul>
+    </nav>
+
+</div>
+<script src="js/JScript.js"></script>
+</body>
+</html>

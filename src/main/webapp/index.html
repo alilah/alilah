@@ -1,0 +1,50 @@
+
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf8">
+    <meta name="description" content="hotel reservation system app">
+    <meta name="keywords" content="HTML, CSS, Javascript, Servlet, Ajax, JDBC,PL/SQL, JUnit">
+    <meta name="Author" content="Abouderman Amadou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"> <!-- my own css-->
+
+    <!--  jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Latest compiled JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>HRS</title>
+</head>
+
+<body>
+
+<div style="text-align: center"><strong><h1 font-size="30px"><b>REVATURE HOTEL RESERVATION SYSTEM</b></h1></strong></div><br><br>
+
+<form class="container" style = "text-align:center"name="loginform" method="Post" action="/LogingServlet">
+    <p><strong>Please loging or click the register button to register</strong></p>
+
+    <div class="form-group">
+        <label for=”exampleUserName">Username</label>
+        <input type=”text”  name="username" class=”form-control” id=”exampleUserName">
+    </div>
+
+    <div class=”form-group”>
+        <label for=”exampleInputPassword1″>Password</label>
+        <input type=”password” name="password" class=”form-control” id=”exampleInputPassword1″ >
+    </div>
+    <input type="submit" value="submit" onclick="sayHiToLogger()">
+</form>
+<form style="text-align:right "name="registerform" method="Post" action="/registration.html">
+    <button style="color: blue" ><strong></strong>Register</strong></button>
+</form>
+</div>
+
+<script src="js/JScript.js"></script>
+</body>
+</html>

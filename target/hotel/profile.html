@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+
+<p style="text-align: center"><strong>Please fill up your profile</strong></p>
+<form style ="text-align: center" name="profileform" method="Post" action="/ProfileServlet">
+    <div style="text-align: center">
+        <div class="form-group">
+            <label for=”examplefullname″>Profile Identity</label>
+            <input type=”text” name="profile" class=”form-control” id=”exampleprofile″ required><br>
+        </div>
+
+        <div class="form-group">
+            <label for=”examplefullname″>Full Name</label>
+            <input type=”text” name="fullName" class=”form-control” id=”examplefullName″ required><br>
+        </div>
+        <div>
+            <label for=”exampleInputEmail″>Email</label>
+            <input type=”text” name="email" class=”form-control” id=”exampleInputemail″ require><br>
+        </div>
+        <div>
+            <label for=”exampleInputaddress″>Address</label>
+            <input type=”text” name="address" class=”form-control” id=”exampleInputaddress″ required><br>
+
+            <label for=”exampleInputbilling″>Billing </label>
+            <input type=”text” name="bill" class=”form-control” id=”exampleInputbilling″ placeholder="leave blank" ><br>
+        </div>
+        <button style="color: blue;">Create Profile</button>
+    </div>
+</form>
+<!--<div>
+    <form style ="text-align: center" name="profileform" method="Get" action="/ProfileServlet">
+        <button style="color: blue">View Profile</button></form>
+</div>-->
+
+</body>
+</html>

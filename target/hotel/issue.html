@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Issues</title>
+</head>
+<body>
+<p style="text-align: center"><strong>Please describe your issue</strong></p>
+<form style ="text-align: center" name="issueform" method="Post" action="/IssueServlet">
+    <div style="text-align: center">
+        <div class="form-group">
+
+            <label for=”examplefullname″>Issue Number</label>
+            <input type=”text” name="issueid" class=”form-control” id=”examplefullName″ required><br>
+        </div>
+        <div>
+            <label for=”exampleInputEmail″>Description</label>
+            <input type=”text” name="description" class=”form-control” id=”exampleInputemail″ require><br>
+        </div>
+        <div>
+            <label for=”exampleUserName″>Status</label>
+            <input type=”text” name="status" class=”form-control” id=”exampleUsername″ required><br>
+        </div>
+        <button style="color: blue;">Post</button>
+    </div>
+</form>
+</body>
+</html>
