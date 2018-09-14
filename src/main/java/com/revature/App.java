@@ -13,8 +13,8 @@ public class App {
 
         UserBean user = new UserBean();
 
-        user.setUsername("tim");
-        user.setPassword("tim");
+        user.setUsername("timothy");
+        user.setPassword("timothy");
 
         userDao.createUser(user);
 
