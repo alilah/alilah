@@ -12,7 +12,7 @@ public class App {
         UserDao userDao = new UserDao();
 
         UserBean user = new UserBean();
-
+        // set default user to timothy
         user.setUsername("timothy");
         user.setPassword("timothy");
 
