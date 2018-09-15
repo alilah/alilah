@@ -65,8 +65,6 @@ public class UserDao {
 // get guest info by username
    public UserBean getUserLoginInfo(String username) {
 
-        //String username = logingbean.getUsername();
-
        UserBean lb = null;
 
 
@@ -80,16 +78,6 @@ public class UserDao {
            ResultSet rs = pst.executeQuery();
 
            while(rs.next()) {
-
-              /* Role role;
-
-               if (rs.getString("Rolee") == "USER")
-                   //role = Role.GUEST;
-               {
-                   role = new Role(2, "User");
-               } else {
-                   role = new Role(1, "Host");
-               }*/
 
                int uid = rs.getInt("USERID");
                String name = rs.getString("FullNAME");

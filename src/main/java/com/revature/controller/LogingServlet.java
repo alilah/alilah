@@ -30,12 +30,6 @@ public class LogingServlet extends HttpServlet {
 
         UserDao dao = new UserDao();
 
-       /* List<UserBean> users = dao.getAllguests();
-
-        for (UserBean user : users) {
-            pw.println( );
-            pw.println(user.toString());
-        }*/
        // instead of creating a dao
         pw.print("<html>");
         pw.print("<head><title>All Guests </title></head>");
@@ -128,7 +122,6 @@ public class LogingServlet extends HttpServlet {
 
                 String userValidation = dao.authenticateUser(logingbean);
 
-                //was userValidation
                 switch (userValidation) {
                     case "Host's Role": {
 

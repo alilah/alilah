@@ -42,7 +42,7 @@ public class RegistrationServlet extends HttpServlet {
         String email = req.getParameter("email");
         String user = req.getParameter("username");
         String pass = req.getParameter("password");
-        String ro =    req.getParameter("role");//je ne recois rien du client
+        String ro =    req.getParameter("role");
 
         PrintWriter pw = resp.getWriter();
 

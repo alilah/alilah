@@ -1,7 +1,7 @@
 package com.revature.bean;
 
 
-public class UserBean {//this is user
+public class UserBean {//this is user a bean class
 
     private int userId;
     private String fullName;

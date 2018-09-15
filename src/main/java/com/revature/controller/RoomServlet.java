@@ -24,8 +24,6 @@ public class RoomServlet extends HttpServlet {
         resp.setContentType("text/html charser=utf-8");
         PrintWriter pw = resp.getWriter();
 
-        //UserBean lb = null;
-
         RoomDao rd = new RoomDao();
         //pw.println(rd.getRoomsAvailable());
         List<RoomBean> rooms = rd.getRoomsAvailable();
